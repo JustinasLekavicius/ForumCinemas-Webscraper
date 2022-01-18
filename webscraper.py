@@ -225,7 +225,7 @@ def webscraping_multiprocessed():
 
 print(
     "Welcome! Would you like to start the regular, multithreaded or multiprocessed version of the web scraper, or all of them?")
-mode = input('Please input (without parentheses) "regular", "multithreaded", "multiprocessed" or "all":   ')
+mode = input('Please input (without quotation marks) "regular", "multithreaded", "multiprocessed" or "all":   ')
 if mode == "regular":
     webscraping_regular()
     print("Regular scraping completed in: ", regular_time)
